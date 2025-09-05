@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+#header{
+    height: 100vh;
+    background-image: url(./img/1.png);
+    background-position: right;
+    background-size: absolute;
+    background-repeat: no-repeat;
+    background-color: #F5F1E3;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 30px;
+}
+
+.header-text{
+    margin-top: 80px;
+    width: 500px;
+}
+h1{
+    font-size: 50px;
+    color: #37353E;
+}
+
+.box{
+    
+    width: 12px;
+    height: 12px;
+    background-color: #44444E;
+    display: inline-block;
+    margin: 15px 0;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: darkorange;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+p{
+    color: #715A5A;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line-1{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: darkorange;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background-color: darkorange;
+}
+.line-3{
+    width: 60px;
+    height: 1px;
+    display: inline-block;
+    background-color: darkorange;
+}
+.line{
+    line-height: 8px;
+}
+
+#sidenav{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    right: -250px;
+    top: 0;
+    background:#402019;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menubtn{
+    position: fixed;
+    width: 50px;
+    right: 65px;
+    top: 35px;
+    z-index: 3;
+    cursor: pointer;
+
+}
+

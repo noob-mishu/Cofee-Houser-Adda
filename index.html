@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Houser Adda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="./img/2.png" class="logo">
+            <div class="header-text">
+                <h1>Fuel Your Day <br> One Cup at a <br> Time</h1>
+                <span class="box"></span>
+                <p>Freshly brewed coffee made with love, served to brighten your day. Whether it’s morning energy or evening relaxation, we’ve got the perfect cup for you.</p>
+            <button class="btn" type="submit">Order Now → </button>
+            <button class="btn" type="submit">Order Now</button>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+        </div>
+
+    </section>
+
+    <nav id="sidenav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Offer</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="./img/Untitled design.png" id="menubtn" >
+
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var sidenav = document.getElementById("sidenav");
+
+        sidenav.style.right = "-250px";
+
+        menubtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+            }
+            else{
+                sidenav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+</html>
